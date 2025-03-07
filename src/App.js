@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import "./index.css";
 import Home from './routes/Home';
 import Certifications from './routes/Certifications';
@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path='/' element={<Home />}/>
+        <Route path='/portfolio' element={<Home />}/>
         <Route path='/parcours' element={<Parcours />}/>
         <Route path='/competences' element={<Competences />}/>
         <Route path='/projets' element={<Projets />}/>
