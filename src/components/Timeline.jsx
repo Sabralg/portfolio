@@ -2,11 +2,11 @@ import React from "react";
 import './Timeline.css';
 
 const timelineData = [
-    { year: 2022, left: "Équipière Polyvalente", right: "BTS Services Informatiques aux Organisations" },
-    { year: 2023, left: "Technicienne Informatique", right: "" },
+    { year: 2025, left: "Stage Développeuse Web", right: "BUT3 Info", pin: true  },
     { year: 2024, left: "Stage Développeuse Full Stack", right: "DUT Technologie de l'information" },
-    { year: 2025, left: "Stage Développeuse Web", right: "BUT3 Info" },
-    { year: 2025, left: "", right: "Master Design Interface Multimédia et Internet", pin: true },
+    { year: 2023, left: "Technicienne Informatique", right: "" },
+    { year: 2022, left: "Équipière Polyvalente", right: "BTS Services Informatiques aux Organisations" },
+    { year: 2020, left: "Baccalauréat Scientifique, Science de l'Ingénieur" },
 ];
 
 const Timeline = () => {
