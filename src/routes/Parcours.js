@@ -1,5 +1,5 @@
 import React from 'react'
-import '../components/Timeline'
+import Timeline from '../components/Timeline'
 
 const Parcours = () => {
   return (
