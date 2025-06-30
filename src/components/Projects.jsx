@@ -17,29 +17,23 @@ const projects = [
     ],
   },
   {
-    title: "Portfolio interactif",
-    date: "févr. 2025 - mars 2025",
-    description: `J’ai conçu un portfolio personnel interactif mettant en valeur mes compétences techniques et créatives. Ce projet m’a permis de créer une interface moderne et responsive avec React.js, intégrant des animations CSS, une navigation fluide, et un design minimaliste. L’objectif était de refléter ma personnalité tout en facilitant la présentation de mes projets, de manière claire et intuitive.`,
+    title: "SAE Analyse des données GEIl de Parcoursup",
+    date: "févr. 2024",
+    description: `Dans le cadre de cette Situation d'apprentissage et d'évaluation (SAE), nous devions fournir des critères pour comparer les candidats, puis les utiliser pour développer un programme qui établit un classement.
+Pour mener à bien ce projet, nous avons gardé en tête un principe que notre professeur en système informatique décisionnel nous a enseigné : l'importance fondamentale de comprendre les données que l'on manipule.`,
     competences: [
-      "React.js",
-      "CSS Animation",
-      "Responsive Design",
-      "GitHub Pages",
-      "UI/UX",
+      "Analyse des exigences",
+      "Python",
+      "Jupyter Notebook",
+      "Algorithmique",
     ],
   },
   {
     title: "Dashboard de gestion de tâches",
     date: "mai 2025 - juin 2025",
-    description: `Développement d’un dashboard de gestion de tâches pour une petite équipe. L’interface permet de créer, organiser, et suivre l’avancement des tâches via un système de kanban dynamique. L’architecture front-back repose sur React.js, Node.js et MongoDB. J’ai été responsable de l’intégration front-end, des requêtes API, ainsi que du déploiement du projet.`,
-    competences: [
-      "React.js",
-      "Node.js",
-      "MongoDB",
-      "Express",
-      "API REST",
-      "Kanban UI",
-    ],
+    description: `Pour cette Situation d'apprentissage et d'évaluation
+(SAE), nous avions carte blanche quant au choix du sujet. Mes camarades et moi avons décidé de développer un agenda, intégrant une gestion des événements. L’interface permet de créer, modifier, et suprimer des tâches. `,
+    competences: ["Flask", "Python", "MongoDB", "Trello", "GitHub"],
   },
   {
     title: "Podcast : Discussion sur le jeu vidéo",
