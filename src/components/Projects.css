@@ -1,0 +1,77 @@
+.projects-container {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 50px 20px;
+  background-color: #0e0e0e;
+  font-family: "Arial", sans-serif;
+}
+
+.project-card {
+  background-color: #fca36e;
+  color: #000;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+}
+
+.project-card h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.project-date {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  white-space: pre-line; /* Pour conserver les sauts de ligne */
+}
+
+.project-skills {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.toggle-btn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.toggle-btn:hover {
+  background-color: #333;
+}
+
+.podcast-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.podcast-link:hover {
+  background-color: #333;
+}

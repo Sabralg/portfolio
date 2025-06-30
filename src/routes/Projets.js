@@ -1,14 +1,14 @@
-import React from 'react'
+import React from "react";
 import Navbar from "../components/Navbar";
-import Podcast from '../components/Podcast';
+import Projects from "../components/Projects";
 
 const Projets = () => {
   return (
     <div>
       <Navbar />
-      <Podcast />
+      <Projects />
     </div>
-  )
-}
+  );
+};
 
-export default Projets
+export default Projets;
