@@ -41,8 +41,8 @@
         position: absolute;
         top: 0;
         left: -100%;
-        z-index: -3;
-        transition: O.3s;
+        z-index: 1000;
+        transition: 0.3s;
     }
 
     .nav-menu.active {

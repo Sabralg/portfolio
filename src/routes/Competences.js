@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Skills from "../components/skills";
+import Navbar from "../components/Navbar";
 
 const Competences = () => {
   return (
-    <div>Competences</div>
-  )
-}
+    <div>
+      <Navbar />
+      <Skills />
+    </div>
+  );
+};
 
-export default Competences
+export default Competences;

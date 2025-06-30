@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom"
 import "./NavbarStyle.css"
-
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { FaBars, FaTimes } from "react-icons/fa"
 
 
@@ -12,14 +11,17 @@ const Navbar = () => {
 
   const [color, setColor] = useState(false);
   const changeColor = () =>{
-    if(window.scrolly >=100){
+    if(window.scrollY >=100){
       setColor(true);
     }else{
       setColor(false)
     }
   };
 
-  window.addEventListener("scroll", changeColor);
+  useEffect(() => {
+    window.addEventListener("scroll", changeColor);
+    return () => window.removeEventListener("scroll", changeColor);
+  }, []);
 
   return (
     <div className={color ? ".header header-bg":"header"}>
